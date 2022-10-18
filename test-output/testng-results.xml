@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" ignored="3" total="10" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="56" started-at="2022-10-07T11:02:18 IST" finished-at="2022-10-07T11:02:18 IST">
+    <groups>
+      <group name="Fire">
+        <method signature="TestngTask.tc02()[pri:0, instance:org.testng.TestngTask@3ecd23d9]" name="tc02" class="org.testng.TestngTask"/>
+        <method signature="TestngTask.tc05()[pri:0, instance:org.testng.TestngTask@3ecd23d9]" name="tc05" class="org.testng.TestngTask"/>
+        <method signature="TestngTask.tc08()[pri:0, instance:org.testng.TestngTask@3ecd23d9]" name="tc08" class="org.testng.TestngTask"/>
+      </group> <!-- Fire -->
+      <group name="Smoke">
+        <method signature="TestngTask.tc01()[pri:0, instance:org.testng.TestngTask@3ecd23d9]" name="tc01" class="org.testng.TestngTask"/>
+        <method signature="TestngTask.tc04()[pri:0, instance:org.testng.TestngTask@3ecd23d9]" name="tc04" class="org.testng.TestngTask"/>
+        <method signature="TestngTask.tc07()[pri:0, instance:org.testng.TestngTask@3ecd23d9]" name="tc07" class="org.testng.TestngTask"/>
+        <method signature="TestngTask.tc10()[pri:0, instance:org.testng.TestngTask@3ecd23d9]" name="tc10" class="org.testng.TestngTask"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="56" started-at="2022-10-07T11:02:18 IST" finished-at="2022-10-07T11:02:18 IST">
+      <class name="org.testng.TestngTask">
+        <test-method status="FAIL" signature="tc01()[pri:0, instance:org.testng.TestngTask@3ecd23d9]" name="tc01" duration-ms="7" started-at="2022-10-07T11:02:18 IST" finished-at="2022-10-07T11:02:18 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at org.testng.TestngTask.tc01(TestngTask.java:11)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01 -->
+        <test-method status="PASS" signature="tc04()[pri:0, instance:org.testng.TestngTask@3ecd23d9]" name="tc04" duration-ms="1" started-at="2022-10-07T11:02:18 IST" finished-at="2022-10-07T11:02:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04 -->
+        <test-method status="PASS" signature="tc07()[pri:0, instance:org.testng.TestngTask@3ecd23d9]" name="tc07" duration-ms="1" started-at="2022-10-07T11:02:18 IST" finished-at="2022-10-07T11:02:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc07 -->
+        <test-method status="PASS" signature="tc10()[pri:0, instance:org.testng.TestngTask@3ecd23d9]" name="tc10" duration-ms="0" started-at="2022-10-07T11:02:18 IST" finished-at="2022-10-07T11:02:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc10 -->
+        <test-method status="PASS" signature="tc05()[pri:0, instance:org.testng.TestngTask@3ecd23d9]" name="tc05" duration-ms="0" started-at="2022-10-07T11:02:18 IST" finished-at="2022-10-07T11:02:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05 -->
+        <test-method status="PASS" signature="tc08()[pri:0, instance:org.testng.TestngTask@3ecd23d9]" name="tc08" duration-ms="0" started-at="2022-10-07T11:02:18 IST" finished-at="2022-10-07T11:02:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc08 -->
+        <test-method status="SKIP" signature="tc02()[pri:0, instance:org.testng.TestngTask@3ecd23d9]" name="tc02" duration-ms="0" depends-on-groups="Smoke" started-at="2022-10-07T11:02:18 IST" finished-at="2022-10-07T11:02:18 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestngTask.tc02()[pri:0, instance:org.testng.TestngTask@3ecd23d9] depends on not successfully finished methods in group "Smoke"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestngTask.tc02()[pri:0, instance:org.testng.TestngTask@3ecd23d9] depends on not successfully finished methods in group "Smoke"
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02 -->
+      </class> <!-- org.testng.TestngTask -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
